@@ -1,0 +1,77 @@
+// Home page
+.flex-wrap
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  padding: 20px 0
+
+  .flex-item
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    width: 267px
+    padding: 16px
+    text-align: center
+
+    img
+      background: #EEEDEC
+      height: 90px
+      width: 90px
+      padding: 25px
+      margin: 10px 0
+      border-radius: 50%
+
+    h3
+      padding: 0
+      margin: 10px 0
+      font-size: 17px
+      line-height: 28px
+    
+    p
+      margin: 0
+      font-size: 16px
+
+  .flex-item-row
+    display: flex
+    flex-direction: row
+    width: 300px
+    align-items: flex-start
+
+    img
+      margin: 20px 20px 0 0
+
+.full-width
+  background:
+    image: url("/assets/img/full-width.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    blend-mode: overlay
+    size: cover
+    position: center
+    attachment: fixed
+    repeat: no-repeat
+  height: 500px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-transform: uppercase
+
+.full-width-two
+  background:
+    image: url("/assets/img/hero2.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))
+    blend-mode: overlay
+    size: cover
+    position: center
+    attachment: fixed
+    repeat: no-repeat
+
+  .big-quote
+    text-align: center
+    font:
+      size: 22px
+      weight: 300
+      style: italic
+    line-height: 35px
+    color: #fff
+    max-width: 1100px
+    padding: 0 10px

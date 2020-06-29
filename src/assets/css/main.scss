@@ -1,5 +1,6 @@
 // 0-tools
 @import '0-tools/normalize';
+@import '0-tools/animate';
 
 // 1-base
 @import '1-base/vars';
@@ -14,3 +15,6 @@
 
 // 4-pages
 @import '4-pages/home';
+@import '4-pages/pricing';
+@import '4-pages/see';
+@import '4-pages/contact';

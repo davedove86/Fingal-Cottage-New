@@ -1,0 +1,33 @@
+header
+  background-image: url("/assets/img/hero1.jpg"), linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3))
+  background-blend-mode: overlay
+  background-size: cover
+  background-position: center
+  height: 100vh
+
+  .hero-wrap
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    color: #fff
+    text-align: center
+    max-width: 1110px
+    margin: 0 auto
+
+    h1
+      font-size: 40px
+      line-height: 48px
+      letter-spacing: 6px
+      text-transform: uppercase
+      margin: 0
+      padding-bottom: 10px
+
+    .kicker
+      padding: 0
+      margin: 0
+
+    @media screen and ( max-width: 768px )
+      h1
+        font-size: 30px
