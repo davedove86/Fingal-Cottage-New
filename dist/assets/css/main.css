@@ -3783,7 +3783,7 @@ nav .burger div {
 }
 
 .full-width {
-  background-image: url("/assets/img/full-width.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url("/assets/img/front-white.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
@@ -3798,7 +3798,7 @@ nav .burger div {
 }
 
 .full-width-two {
-  background-image: url("/assets/img/hero2.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-image: url("/assets/img/wider-shot.jpg"), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-size: cover;
   background-position: center;
