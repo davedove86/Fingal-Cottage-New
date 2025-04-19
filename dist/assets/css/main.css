@@ -3824,11 +3824,12 @@ nav .burger div {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  text-align: center;
   color: #fff;
   background: #597e9c;
   height: 60px;
   width: 220px;
-  font-size: 15px;
+  font-size: 14px;
   margin: 0;
 }
 .flex-item-price .price {
